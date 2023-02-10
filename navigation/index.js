@@ -1,6 +1,5 @@
 import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-
 import Home from '../screens/home';
 import Quiz from '../screens/quiz';
 import Result from '../screens/result';

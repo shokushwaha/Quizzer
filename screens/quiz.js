@@ -170,6 +170,7 @@ const styles = StyleSheet.create({
         borderRadius: 20
     },
     instText: {
-        fontSize: 15
+        fontSize: 15,
+        fontWeight: "800"
     }
 });

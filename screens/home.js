@@ -28,8 +28,8 @@ export default Home;
 
 const styles = StyleSheet.create({
     banner: {
-        height: 300,
-        width: 300,
+        height: 400,
+        width: 400,
     },
     bannerContainer: {
         justifyContent: 'center',
