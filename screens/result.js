@@ -9,7 +9,7 @@ const Result = ({ navigation, route }) => {
     return (
         <View style={styles.container}>
             <Title titleText='RESULTS' />
-            <Text style={styles.scoreValue}>{score}</Text>
+            <Text style={styles.scoreValue}>Your Score : {score}</Text>
             <View style={styles.bannerContainer}>
                 <Image
                     source={{
@@ -59,6 +59,7 @@ const styles = StyleSheet.create({
         color: 'black',
     },
     scoreValue: {
+        marginTop: 20,
         fontSize: 24,
         fontWeight: '900',
         alignSelf: 'center'
